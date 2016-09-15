@@ -1,5 +1,5 @@
 {
-  "name": "@1dv022/excersice",
+  "name": "@CS-LNU-Learning-Objects/client-side-javascript-exercise",
   "version": "1.0.0",
   "homepage": "https://coursepress.lnu.se/kurs/klientbaserad-webbprogrammering/",
   "contributors": [
@@ -26,21 +26,21 @@
     "url": "https://github.com/1dv022/excersice"
   },
   "engines": {
-    "node": ">=4.0.0"
+    "node": ">=6.5.0"
   },
   "dependencies": {},
   "devDependencies": {
-    "browserify": "^12.0.1",
+    "browserify": "^13.1.0",
     "casper-chai": "^0.2.1",
     "casperjs": "^1.1.0-beta3",
     "chai": "^3.4.0",
-    "http-server": "^0.8.5",
+    "http-server": "^0.9.0",
     "mocha": "^2.3.3",
     "mocha-casperjs": "^0.5.4",
     "mocha-phantomjs": "^4.0.1",
-    "npm-run-all": "^1.2.13",
+    "npm-run-all": "^3.1.0",
     "phantomjs": "^1.9.18",
-    "watchify": "^3.6.0"
+    "watchify": "^3.7.0"
   },
   "bin": {},
   "directories": {
@@ -55,7 +55,7 @@
     "server:http": "http-server **/client/debug -p 3000",
     "test": "npm run test:debug --silent",
     "test:debug": "mocha-casperjs ./**/client/test/*.js",
-    
+
     "watch:js": "watchify ./**/client/source/js/app.js -o ./**/client/debug/javascript/build.js -d -v --poll",
     "watch:html": "nodemon --watch ./**/client/source -e html -x \"npm run build:html\" --legacy-watch",
     "watch:css": "nodemon --watch ./**/client/source/css -e css -x \"npm run build:css\" --legacy-watch",
@@ -63,5 +63,3 @@
 
   }
 }
-
-
