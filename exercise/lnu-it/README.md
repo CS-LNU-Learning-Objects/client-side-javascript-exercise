@@ -1,13 +1,10 @@
 ## LNU IT
+In this assignment you are supposed to build a script that will change the background color and text color of all links (a-elements) in the HTML-document (client/index.html).
 
-I denna uppgift är tanken att du utifrån sidan som finns (client/index.html) bygga ett skript som 
-ändrar bakgrundfärg och textfärg på alla a-länkar som finns i HTML-dokumentet. Sidan är en kopia av världens första webbsida och därför 
-kan HTML-koden se lite ålderdomlig och exprimentel ut. Det spelar dock ingen roll för denna uppgift. Vill du studera 
-sidan i sitt orginal ligger den ute på [http://info.cern.ch/hypertext/WWW/TheProject.html](http://info.cern.ch/hypertext/WWW/TheProject.html).
+The page is a copy of the first web page ever created so the HTML-code might look a little different than you are used to. This will not matter at all though. If you like to study the orignal page you will find it at [http://info.cern.ch/hypertext/WWW/TheProject.html](http://info.cern.ch/hypertext/WWW/TheProject.html).
 
-Du får själv skriva din css-kod (så klart i en separerad CSS-fil) och via javascript se till att
-den link-elementet som länkar till din CSS skjuts in i head-taggen.
+You are free to write your own css code (in a separate file of course) and using javascript make sure the link-element you will need to load the css-file is injected into the head-element.
 
-* Alla länkar ska ha gul bakgrundsfärg och svart länktext.
-* Du får inte ändra något i client/index.html annat än med javascriptkoden du skriver.
-* Vi har redan lagt till scripttaggen sist i index.html
+* All links should have yellow background color and black foreground color
+* You are not allowed to change anything in client/index.html whithout writing javascript to change it for you.
+* We have already added the scriptelement last in the index.html
