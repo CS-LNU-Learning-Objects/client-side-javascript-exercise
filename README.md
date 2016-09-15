@@ -15,7 +15,7 @@ From start:
 
 Some quirks to make the machine work out of the box in Windows.
 
-Exercises are constantly updated and added. You will find those as branches in this repo.
+Exercises are constantly updated and added. You will find those as branches in this repo. 
 
 ## Install
 Make sure you have the following installed on your system:
