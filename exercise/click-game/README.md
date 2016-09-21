@@ -1,24 +1,18 @@
-## Click game
-Här är tanken att du ska skriva ett enkelt "klickspel". Spelidén är att ett antal brickor, 9 stycken, 
-får för varje spelomgång en slumpmässig färg antingen gul, blå eller röd. Av spelytan bestående av de 9
-brickorna ska det alltid vid varje spelstart finnas 3 gula, 3 blå och 3 röd.
-Det slumpas också fram en färg som är färgen som användaren ska klicka på. Slumpas t.ex. röd färg fram ska användaren 
-så snabbt som möjligt klicka på alla röda brickor.
+## The Click game
 
-Filen client/index.html består av ett antal divtaggar som positioneras ut som
-i en enkel spelplan med dessa 9 brickor. Från början är alla brickor gråa och tanken är att du 
-ska skriva javascriptkod som gör följande:
- 
-* Först och främst slumpmässigt sätter om färgerna på varje bricka (använd de färdiga css-klasserna),
-* Slumpar fram vilken färg som ska klickas. Detta presenteras för användaren vid start.
-* När spelet startar ska också en timer starta som hela tiden uppdateras på sidan
-* När användaren klickat på en bricka med rätt färg ska den byta färg till grå
-* När användaren klickat ner alla brickor med rätt färg ska timern stanna och sluttiden syns.
+In this exercise you should write a simple click game. The game have nine bricks. At the start of every game round these bricks should have a random color (yellow, blue or red). The game should always have three yellow, three blue and three red. At the start the game should also show a random color that the user is supposed to click. For example if red is the random color the player should click on all red bricks.
 
-I bilden nedan har spelet startat och timern står och rullar. Översta vänstra hörnet var en blå bricka
-som användaren tryckt på.
+The file client/index.html includes a number of div-tags that is positioned out in a simple game board with nine bricks. Maybe you can do this better but that is not the main point for this exercise. From the beginning all these bricks are grey and the idea is that you will write Javascript code that do this:
 
-Vill man kan man naturligtvis bygga vidare på uppgiften och t.ex. ge tidsstraff ifall användaren klickar på 
-fel färg o.s.v.
+* Create the game board with three random places bricks in the three different colors at the start of each game round.
+* Randomise the “click color” and present that for the player at the start of each game round.
+* When the game round starts a timer should be starting and be present for the player.
+* When the player clicks a brick with the right color the brick should change color to grey.
+* When the player have clicked all the right three bricks the timer should stop and the end time will show.
+
+In the image below the game round have started and the timer is updating on the page. In the top right corner
+the player sees the chosen color. The brick in the top left time was a blue brick that the player has clicked.
+
+Of course you can implement more features if you want. For example give the player more time if she/he clicked the wrong brick.
 
 ![exempelbild](exempel.png)
