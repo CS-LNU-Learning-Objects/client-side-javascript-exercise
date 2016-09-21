@@ -17,8 +17,8 @@ OBS! This image was captured with plugins activated so your result could vary. B
 
 ![facit bild](client/facit.png)
 
-"Här kommer lite text med en span-tagg" == "Here are some text  whitin a span tag"
-"Antal element" == "Number of elements"
-"Antal attribut" == "Number of attributes"
-"Antal kommentarer" == "Number of comments"
-"Antal textnoder" == "Number of text node"
+* "Här kommer lite text med en span-tagg" == "Here are some text  whitin a span tag"
+* "Antal element" == "Number of elements"
+* "Antal attribut" == "Number of attributes"
+* "Antal kommentarer" == "Number of comments"
+* "Antal textnoder" == "Number of text node"
