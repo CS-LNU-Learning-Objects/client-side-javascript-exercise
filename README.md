@@ -28,14 +28,15 @@ Now, do:
 2. Enter the repo (`cd [STUDENT-ID]-exercises`)
 3. Make a remote pointing to the exercises (`git remote add exercises https://github.com/CS-LNU-Learning-Objects/client-side-javascript-exercise`)
 4. Pull (`git pull exercises`) into your existing excersise repo. Make sure you are in the root of your repo. (This will fetch all exercise branches)
+5. Merge the exercise-repost master branch into your master branch. `git merge exercises/master`
 
-5. Start a new terminal window (you need two open, one for git and one for vagrant)
+6. Start a new terminal window (you need two open, one for git and one for vagrant)
 
-6. Navigate to the the repo (`cd [STUDENT-ID]-exercises`)
+7. Navigate to the the repo (`cd [STUDENT-ID]-exercises`)
 
-7. Start the virtual machine using `vagrant up` (May take 10-30 minutes this first time. Ignore red command line statements and warnings.)
+8. Start the virtual machine using `vagrant up` (May take 10-30 minutes this first time. Ignore red command line statements and warnings.)
 
-8. `vagrant ssh` to connect to the machine.
+9. `vagrant ssh` to connect to the machine.
 
 ## In the first terminal window (git)
 1. checkout the exercise bransh you want to work with. (Ex: `git checkout lnu-it`)
