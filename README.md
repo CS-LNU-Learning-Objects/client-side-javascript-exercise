@@ -28,7 +28,7 @@ Now, do:
 2. Enter the repo (`cd [STUDENT-ID]-exercises`)
 3. Make a remote pointing to the exercises (`git remote add exercises https://github.com/CS-LNU-Learning-Objects/client-side-javascript-exercise`)
 4. Pull (`git pull exercises`) into your existing excersise repo. Make sure you are in the root of your repo. (This will fetch all exercise branches)
-5. Merge the exercise-repost master branch into your master branch. `git merge exercises/master`
+5. Merge the exercise-repost master branch into your master branch. `git merge exercises/master --allow-unrelated-histories`
 
 6. Start a new terminal window (you need two open, one for git and one for vagrant)
 
